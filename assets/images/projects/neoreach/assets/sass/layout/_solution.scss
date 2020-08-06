@@ -1,0 +1,133 @@
+.marketing-section {
+  //   border: 1px solid;
+  .market-container {
+    .s-market-content {
+      //   border: 1px solid;
+      margin-top: 5rem;
+      text-align: center;
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+    .s-market-row-3 {
+      //   border: 1px solid;
+      justify-content: space-between;
+      .s-content-side {
+        width: 30%;
+        margin-left: 10rem;
+      }
+    }
+    .s-market-row-1 {
+      justify-content: space-between;
+      margin-top: 30rem;
+      .content-side {
+        margin-right: 1rem;
+      }
+      .s-image-side-1 {
+        width: 100%;
+      }
+      .s-image-side-1-slider {
+        // border: 1px solid;
+        // overflow: visible;
+        left: 25%;
+        top: 18%;
+        width: 55%;
+        height: 90%;
+        img {
+          width: 100%;
+          position: absolute;
+          top: 100%;
+          &:nth-child(1) {
+            animation: image-slider 10s 0s linear infinite;
+          }
+          &:nth-child(2) {
+            animation: image-slider 10s 6s linear infinite;
+          }
+        }
+      }
+      .s-image-side-2 {
+        top: 9rem;
+        right: 11rem;
+      }
+    }
+  }
+}
+.package-section {
+  .s-package-content {
+    display: block;
+    .col-right,
+    .col-left {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 10rem 5rem;
+      // border: 1px solid;
+      background-color: $color-white;
+      .col-content {
+        width: 30%;
+        text-align: left;
+        h2 {
+          margin-bottom: 2rem;
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 1.8;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+    .col-right .col-img-wrapper {
+      max-width: 48rem;
+      margin-right: 5rem;
+    }
+    .col-left {
+      justify-content: center;
+      .col-img-wrapper {
+        max-width: 40%;
+      }
+      .col-content {
+        margin-left: 10rem;
+        width: 40%;
+      }
+    }
+  }
+}
+.thumbs-up-section {
+  position: relative;
+  overflow: hidden;
+  background-color: $color-3;
+  margin: 10rem auto;
+  width: 90%;
+  text-align: center;
+  padding: 4rem 20rem 10rem 20rem;
+  img {
+    width: 14rem;
+    margin-bottom: 5rem;
+    z-index: 3;
+  }
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    z-index: 3;
+  }
+  .img-1,
+  .img-2 {
+    position: absolute;
+    height: 15rem;
+    z-index: -0;
+  }
+  .img-1 {
+    width: 80%;
+    height: 20rem;
+    left: -12%;
+    transform: rotate(20deg);
+  }
+  .img-2 {
+    bottom: -10%;
+    right: -10%;
+    width: 50%;
+  }
+}

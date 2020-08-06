@@ -1,0 +1,470 @@
+.header {
+  // background-image: url(../img/bg-hero.jpg);
+  background-image: linear-gradient(to top right, $header-bg-1, $header-bg-2);
+  background-size: cover;
+  color: $color-white;
+  height: 100vh;
+  position: relative;
+  .lamp {
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 4rem;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+.navbar {
+  text-transform: uppercase;
+}
+.navbar {
+  height: 8rem;
+  width: 100%;
+  // background-image: linear-gradient(
+  //   to right,
+  //   rgba($header-bg-1, 0.4),
+  //   rgba($header-bg-2, 1)
+  // );
+  // display: block;
+  // top: 0px;
+  // position: fixed;
+  // z-index: 1;
+  .logo {
+    width: 10rem;
+    height: auto;
+    position: absolute;
+    left: 10rem;
+    top: 2rem;
+  }
+  .navlist {
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    li {
+      margin-right: 2rem;
+      padding: 1rem;
+    }
+  }
+}
+.hero-section {
+  width: 100vw;
+  position: absolute;
+  top: 10rem;
+  .content {
+    text-align: center;
+    h1 {
+      font-size: 6rem;
+      font-weight: 300;
+    }
+    strong {
+      margin: 2rem 0;
+      display: block;
+      font-weight: 600;
+    }
+  }
+}
+section {
+  display: block;
+  position: relative;
+  padding: 10rem 0;
+  box-sizing: border-box;
+  .content {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    h1 {
+      font-size: 5rem;
+      margin: 2rem 0;
+      @include gradient-text;
+    }
+    @include clearfix;
+  }
+}
+
+.startup {
+  background-color: $section-bg;
+  height: 110vh;
+  &__p1 {
+    float: left;
+    width: 50%;
+  }
+  &__p2 {
+    margin-left: 2rem;
+    float: left;
+    width: 40%;
+    .special-span {
+      color: $secondary-color;
+    }
+    .col-1-of-2 {
+      margin-top: 5rem;
+    }
+    h1 {
+      margin: 1rem 0;
+    }
+    .head {
+      h3 {
+        display: inline-block;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+.services {
+  text-align: center;
+  h1 {
+    @include gradient-text;
+  }
+  .col-1-of-3 {
+    span {
+      display: block;
+      margin: 2rem 0;
+    }
+  }
+}
+.banner {
+  height: 60vh;
+  background-image: url(../img/bg-img7.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding-top: 10rem;
+  text-align: center;
+  h1,
+  span,
+  i {
+    color: white;
+    margin: 1rem 0;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  i {
+    font-size: 3.5rem;
+  }
+}
+.employees {
+  text-align: center;
+  .employee-img {
+    margin: 2rem auto;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  p {
+    margin: 1rem 0;
+  }
+  i {
+    color: $color-black;
+    font-size: 1.9rem;
+    &:hover {
+      color: transparent;
+    }
+  }
+}
+.portfolio {
+  padding: 0;
+  text-align: center;
+  background-image: $color-gradient;
+  &__banner {
+    color: $color-white;
+    height: 30vh;
+    padding-top: 5rem;
+    span {
+      margin-bottom: 1.5rem;
+      color: $color-white;
+    }
+  }
+  .gallery-wrapper {
+    display: grid;
+    grid-template-rows: 100vh 100vh 50vh;
+    grid-template-columns: repeat(2, 25%) auto;
+    grid-template-areas:
+      "grid-1 grid-2 grid-3"
+      "grid-4 grid-4 grid-5"
+      "grid-6 grid-7 grid-8";
+
+    [class^="grid-"] {
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .grid-1 {
+      grid-area: grid-1;
+    }
+    .grid-2 {
+      grid-area: grid-2;
+    }
+    .grid-3 {
+      grid-area: grid-3;
+    }
+    .grid-4 {
+      grid-area: grid-4;
+    }
+    .grid-5 {
+      grid-area: grid-5;
+    }
+    .grid-6 {
+      grid-area: grid-6;
+    }
+    .grid-7 {
+      grid-area: grid-7;
+    }
+
+    .grid-8 {
+      grid-area: grid-8;
+    }
+    .sub-grid {
+      height: 50%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .sub-grid-2 {
+      float: left;
+      width: 50%;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      &::after {
+        clear: both;
+      }
+    }
+  }
+}
+.pricing {
+  .col-1-of-2 {
+    background-color: $section-bg;
+    border-radius: 1rem;
+    padding: 5rem;
+    h1 {
+      font-size: 4rem;
+      font-weight: 400;
+    }
+    p {
+      margin: 2rem 0;
+    }
+    span {
+      font-size: 1.6rem;
+      font-weight: 300;
+    }
+    .special-heading,
+    .special-span {
+      color: $secondary-color;
+    }
+    .fa-check {
+      color: lightgreen;
+    }
+    .fa-times {
+      color: tomato;
+    }
+    li {
+      display: block;
+      font-size: 1.6rem;
+      margin: 2.5rem 0;
+      i {
+        width: 2rem;
+        font-size: inherit;
+      }
+    }
+    .btn {
+      margin-top: 6rem;
+    }
+  }
+}
+.teams {
+  height: 100vh;
+  padding: 0px;
+  .row {
+    width: 50%;
+    height: 100%;
+  }
+  .teams__single {
+    background-color: $section-bg;
+    position: absolute;
+    left: 0;
+    padding: 12rem 5rem;
+    text-align: center;
+    p {
+      font-size: 1.3rem;
+    }
+    i {
+      font-size: 3.5rem;
+      margin-bottom: 5rem;
+    }
+    .testimonial-img {
+      width: 12rem;
+      height: 12rem;
+      margin: 2rem auto;
+      overflow: hidden;
+      border-radius: 50rem;
+      img {
+        width: 100%;
+      }
+    }
+    span {
+      color: $secondary-color;
+    }
+  }
+  .teams__achievement {
+    background-image: $gradient-transparent, url(../img/business-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 16rem 5rem;
+    position: absolute;
+    right: 0;
+    color: $color-white;
+    // .col-1-of-2,
+    .row {
+      width: 100%;
+      height: 30%;
+      margin: 5rem 0;
+    }
+    p {
+      color: $color-white;
+    }
+  }
+}
+.app-design {
+  text-align: center;
+  i {
+    font-size: 4rem;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  .iphone {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .iphone-inner {
+      width: 27.5rem;
+      height: 50rem;
+      position: absolute;
+      top: 7.8rem;
+      left: 2.5rem;
+      z-index: 1;
+    }
+  }
+  .design-options {
+    margin-top: 10rem;
+  }
+}
+.products {
+  background-color: $section-bg;
+  .product-info {
+    padding: 5rem 0;
+    span {
+      color: $secondary-color;
+    }
+    h1 {
+      margin: 2rem 0;
+    }
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+  .product-info--inverted {
+    text-align: right;
+  }
+}
+.map {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+
+  .map-s1,
+  .map-s2 {
+    width: 50%;
+    height: 100%;
+  }
+  .map-s1 {
+    padding: 12rem 0;
+    color: $color-white;
+    background-image: $gradient-transparent, url(../img/blog03.jpg);
+    background-size: cover;
+    span,
+    i {
+      color: $color-white;
+    }
+    h1 {
+      margin: 3rem 0;
+    }
+    li {
+      margin-right: 2rem;
+    }
+    .address {
+      li {
+        display: block;
+        margin: 2rem;
+      }
+    }
+  }
+}
+.get-in-touch {
+  text-align: center;
+  span {
+    color: $secondary-color;
+  }
+  form {
+    width: 60%;
+    margin: 5rem auto;
+    .row {
+      margin: 1rem;
+    }
+    input,
+    textarea {
+      font-family: inherit;
+      &::placeholder {
+        color: $paragraph-color;
+        font-size: 1.6rem;
+      }
+      padding: 1rem;
+      border: none;
+      outline: none;
+      height: 5rem;
+      border-bottom: 1px solid $section-gradient-1;
+      &:focus {
+        border-bottom: 2px solid $section-gradient-1;
+      }
+    }
+    textarea {
+      height: 15rem;
+      width: 100%;
+      resize: none;
+    }
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+}
+.footer {
+  background-color: $section-bg;
+  text-align: center;
+  i {
+    color: $color-black;
+    margin-right: 4rem;
+    &:hover {
+      color: transparent;
+    }
+  }
+  p {
+    margin-top: 2rem;
+  }
+}

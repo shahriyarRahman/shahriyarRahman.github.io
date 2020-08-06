@@ -1,0 +1,25 @@
+.btn {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+  text-transform: capitalize;
+  &:hover {
+    box-shadow: 0 0.3rem 0.5rem gray;
+  }
+}
+.btn--primary {
+  background-image: $color-gradient;
+}
+
+.btn--secondary {
+  background-color: $secondary-color;
+}
+.btn--block {
+  display: block;
+  margin: 0 auto;
+}

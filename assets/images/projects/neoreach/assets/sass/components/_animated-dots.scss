@@ -1,0 +1,40 @@
+.animated-dots {
+  // border: 1px solid;
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  z-index: 5;
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0.8rem;
+  }
+  .dot {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.8rem;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 5rem;
+    animation: dots-animate 2s ease-out infinite;
+  }
+  .dot-1 {
+    animation-delay: 15s;
+  }
+  .dot-2 {
+    animation-delay: 10s;
+    border: none;
+    background-color: #00c8af;
+  }
+  .dot-3 {
+    border: none;
+    animation-delay: 5s;
+    background-color: #ea80fc;
+  }
+  .dot-4 {
+    border: none;
+    animation-delay: 1s;
+    background-color: #fea09c;
+  }
+}

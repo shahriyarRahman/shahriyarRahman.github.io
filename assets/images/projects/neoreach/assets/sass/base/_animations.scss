@@ -1,0 +1,114 @@
+@keyframes move-up-down {
+  0% {
+    transform: translateY(0.5rem);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+@keyframes card-slider {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(600%);
+  }
+}
+@keyframes graph-up {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80px;
+  }
+}
+@keyframes graph-up-dot {
+  0%,
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes search-bar-animate {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 140%;
+  }
+}
+@keyframes dots-animate {
+  0% {
+    opacity: 1;
+    // visibility: hidden;
+  }
+  50% {
+    opacity: 0;
+    // visibility: hidden;
+  }
+  100% {
+    // visibility: visible;
+    opacity: 1;
+  }
+}
+@keyframes image-slider {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -150%;
+  }
+}
+@keyframes graph-slider {
+  0% {
+    left: 100%;
+    opacity: 0.9;
+  }
+
+  80% {
+    opacity: 0.9;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    left: -80%;
+  }
+}
+@keyframes magic-icon {
+  0% {
+    transform: translate(10px, 10px);
+  }
+
+  25% {
+    transform: translate(20px, 0px);
+  }
+  50% {
+    transform: translate(10px, -10px);
+  }
+  75% {
+    transform: translate(15px, -15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes magic-thumb {
+  0% {
+    top: 100%;
+  }
+  20%,
+  80% {
+    top: 25%;
+  }
+  100% {
+    top: -50%;
+  }
+}

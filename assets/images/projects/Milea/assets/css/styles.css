@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  color: #808080;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+.btn,
+.navbar {
+  text-transform: uppercase;
+}
+.navbar {
+  height: 80px;
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+  background-color: #f9f9ff;
+}
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.logo {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+.navlist {
+  /* float: right; */
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}

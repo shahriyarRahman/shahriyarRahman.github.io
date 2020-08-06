@@ -1,0 +1,422 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/*========== Start Navbar ==========*/   
+.navbar-light {
+    background: #FFF;
+}
+.dark.navbar-light {
+    background: #343436 ;
+    border-bottom: 1px solid #29292d;
+}
+.dark.navbar-light .navbar-collapse {
+    background: #343436;
+}
+.dark.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #f9f9f9;
+}
+.dark.navbar-light .social-media-nav li svg {
+    color: #f9f9f9;
+}
+.fixed-top .navbar-brand {
+    color: #f3c26b !important;
+}
+.fixed-top .navbar-brand .brand-bg {
+    background: #f3c26b;
+}
+.navbar-light .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon.active ,
+.nav-fixed .navbar-toggler-icon,
+.nav-fixed .navbar-toggler-icon.active {
+    
+    background: #f3c26b !important;
+}
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top  .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top  .navbar-nav .show>.nav-link
+{
+    color: #f3c26b !important;
+}
+
+.fixed-top  .navbar-nav .active>.nav-link:before,
+.fixed-top  .navbar-nav .nav-link.active:before,
+.fixed-top  .navbar-nav .nav-link.show:before,
+.fixed-top  .navbar-nav .show>.nav-link:before {
+    opacity: 0;  
+}
+.nav-fixed .navbar-nav .active>.nav-link:before,
+.nav-fixed .navbar-nav .nav-link.active:before,
+.nav-fixed .navbar-nav .nav-link.show:before,
+.nav-fixed .navbar-nav .show>.nav-link:before {
+    opacity: 0;
+}
+    
+.navbar-light .navbar-collapse {
+    background: #FFF;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #444;
+    margin: 0;  
+    padding: 0 0 15px 0;
+} 
+.social-media-nav {
+    padding: 10px 0;
+    padding-left: 0;
+}
+.navbar-light  .social-media-nav li {
+    padding-right: 10px;
+    padding-left: 0
+}
+.navbar-light  .social-media-nav li svg{
+    color: #555;
+}
+.nav-fixed .social-media-nav li:first-of-type:before {
+    background: #FFF;
+}
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    padding-left: 0;
+}
+.info-header h1::before {
+    display: none;
+}
+.info-header h1 span {
+    margin-top: 10px;
+}
+.banner-meta {
+    margin-bottom: 30px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+.banner-meta li {
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+.banner-meta li:first-of-type::before {
+    display: none;
+}
+.banner-meta li::before {
+    display: none;
+}
+.banner-btn {
+    padding-left: 0px;
+}
+/*========== Start About ==========*/
+.section-title h3,
+.section-title-left h3 {
+    font-size: 28px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 18px;
+}
+.about-img img {
+    margin-left: 0px;
+} 
+.about-img::before,
+.box-img::after,
+.box-img::before {
+    display: none;
+}
+.info-about h3 {
+    font-size: 24px;
+    letter-spacing: 0;
+}   
+.info-about {
+    padding-top: 0;
+}
+.info-about p {
+
+}
+.follow-me .social-media-about li a {
+    width: 25px;
+    height: 25px;
+}
+.about-img {
+    margin-right: 0;  
+}
+    .feat-meta {
+        margin-left: 0;
+    }
+.scroll-up {
+    bottom: 90px;
+    right: 10px;
+}
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*========== Start Navbar ==========*/   
+.navbar-light {
+    background: #FFF;
+}
+.dark.navbar-light {
+    background: #343436 ;
+    border-bottom: 1px solid #29292d;
+}
+.dark.navbar-light .navbar-collapse {
+    background: #343436;
+}
+.dark.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #f9f9f9;
+}
+.dark.navbar-light .social-media-nav li svg {
+    color: #f9f9f9;
+}
+    
+.fixed-top .navbar-brand {
+    color: #f7d18d !important;
+}
+.fixed-top .navbar-brand .brand-bg {
+    background: #f7d18d;
+}
+.navbar-light .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon.active ,
+.nav-fixed .navbar-toggler-icon,
+.nav-fixed .navbar-toggler-icon.active {
+    
+    background: #f3c26b !important;
+}
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top  .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top  .navbar-nav .show>.nav-link
+{
+    color: #f3c26b !important;
+}
+
+.fixed-top  .navbar-nav .active>.nav-link:before,
+.fixed-top  .navbar-nav .nav-link.active:before,
+.fixed-top  .navbar-nav .nav-link.show:before,
+.fixed-top  .navbar-nav .show>.nav-link:before {
+    opacity: 0;  
+}
+.nav-fixed .navbar-nav .active>.nav-link:before,
+.nav-fixed .navbar-nav .nav-link.active:before,
+.nav-fixed .navbar-nav .nav-link.show:before,
+.nav-fixed .navbar-nav .show>.nav-link:before {
+    opacity: 0;
+}
+    
+.navbar-light .navbar-collapse {
+    background: #FFF;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #444;
+    margin: 0;  
+    padding: 0 0 15px 0;
+} 
+.social-media-nav {
+    padding: 10px 0;
+    padding-left: 0;
+}
+    .navbar-light  .social-media-nav li {
+        padding-right: 10px;
+        padding-left: 0
+    }
+.navbar-light  .social-media-nav li svg{
+    color: #444;
+}
+.nav-fixed .social-media-nav li:first-of-type:before {
+    background: #FFF;
+}
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    padding-left: 0;
+}
+.info-header h1::before {
+    display: none;
+}
+.info-header h1 span {
+    margin-top: 0px;
+}
+.banner-meta {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+.banner-meta li {
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+.banner-meta li:first-of-type::before {
+    display: none;
+}
+.banner-meta li::before {
+    display: none;
+}
+.banner-btn {
+    padding-left: 0px;
+}
+/*========== Start About ==========*/
+.section-title h3,
+.section-title-left h3 {
+    font-size: 35px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 18px;
+}
+.about-img img {
+    margin-left: 0px;
+    padding-left: 40px;
+}
+.about-img {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.box-img::after,
+.box-img::before {
+    display: none;
+}
+.info-about h3 {
+    font-size: 24px;
+    letter-spacing: 0;
+}
+.info-about p {
+    
+    
+}
+.scroll-up {
+    bottom: 90px;
+    right: 10px;
+}
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*========== Start Navbar ==========*/   
+.navbar-light {
+    background: #FFF;
+}
+.dark.navbar-light {
+    background: #343436 ;
+    border-bottom: 1px solid #29292d;
+}
+.dark.navbar-light .navbar-collapse {
+    background: #343436;
+}
+.dark.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #f9f9f9;
+}
+.dark.navbar-light .social-media-nav li svg {
+    color: #f9f9f9;
+}
+    
+.fixed-top .navbar-brand {
+    color: #f3c26b !important;
+}
+.fixed-top .navbar-brand .brand-bg {
+    background: #f3c26b;
+}
+.navbar-light .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon.active ,
+.nav-fixed .navbar-toggler-icon,
+.nav-fixed .navbar-toggler-icon.active {
+    
+    background: #f3c26b !important;
+}
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top  .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top  .navbar-nav .show>.nav-link
+{
+    color: #f3c26b !important;
+}
+
+.fixed-top  .navbar-nav .active>.nav-link:before,
+.fixed-top  .navbar-nav .nav-link.active:before,
+.fixed-top  .navbar-nav .nav-link.show:before,
+.fixed-top  .navbar-nav .show>.nav-link:before {
+    opacity: 0;  
+}
+.nav-fixed .navbar-nav .active>.nav-link:before,
+.nav-fixed .navbar-nav .nav-link.active:before,
+.nav-fixed .navbar-nav .nav-link.show:before,
+.nav-fixed .navbar-nav .show>.nav-link:before {
+    opacity: 0;
+}
+    
+.navbar-light .navbar-collapse {
+    background: #FFF;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #444;
+    margin: 0;  
+    padding: 0 0 15px 0;
+} 
+.social-media-nav {
+    padding: 10px 0;
+    padding-left: 0;
+}
+    .navbar-light  .social-media-nav li {
+        padding-right: 10px;
+        padding-left: 0
+    }
+.navbar-light  .social-media-nav li svg{
+    color: #555;
+}
+.nav-fixed .social-media-nav li:first-of-type:before {
+    background: #FFF;
+}
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 45px;
+    line-height: 65px;
+}
+.info-header h1 span {
+   
+}
+
+.section-title p {
+    padding-right: 0;
+    padding-left: 0;
+}
+/*========== Start About ==========*/
+
+.section-title h3,
+.section-title-left h3 {
+    font-size: 30px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 18px;
+}
+
+.box-img img {
+    display: block;
+    width: 100%;
+}
+.about-img {
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+    padding-right: 40px;
+}
+.info-about h3 {
+    font-size: 30px;
+}
+.social-media li a {
+    margin-bottom: 5px;
+}
+.scroll-up {
+    bottom: 90px;
+    right: 10px;
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}

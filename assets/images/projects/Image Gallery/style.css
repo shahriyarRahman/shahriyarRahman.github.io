@@ -1,0 +1,20 @@
+img
+{
+	width: 30%;
+	/*height: 100px;*/
+	float: left;
+	padding: 1.5%;
+}
+p
+{
+	/*font-family: Satisfy;*/
+	font-family: Pacifico;
+	font-weight: 800;
+	font-size: 30px;
+	margin-left: 2%;
+	width: 30%;
+	padding-bottom: 5px;
+	 padding-left: 1%; 
+	border-bottom: 2px red  solid;
+	/*border-bottom: 2px #f1f1f1  solid;*/
+}

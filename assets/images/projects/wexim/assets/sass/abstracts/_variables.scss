@@ -1,0 +1,23 @@
+$color-white: #fff;
+$color-black: #000;
+$header-bg-1: #176a70;
+$header-bg-2: #0e4145;
+$section-bg: #f8f9fa;
+$section-gradient-1: #7202bb;
+$section-gradient-2: #3361f3;
+$secondary-color: #00bcd4;
+$paragraph-color: gray;
+$color-gradient: linear-gradient(
+  to left,
+  $section-gradient-1 35%,
+  $section-gradient-2
+);
+$gradient-transparent: linear-gradient(
+  to left,
+  rgba($section-gradient-1, 0.8) 35%,
+  rgba($section-gradient-2, 0.8)
+);
+//grid variables
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 8rem;

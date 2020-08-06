@@ -1,0 +1,342 @@
+.header {
+  background-image: linear-gradient(#1a1a4eb1, #1a1a4eb1), url(../img/hero.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-weight: 600;
+  color: $color-white;
+  a {
+    color: $color-white;
+  }
+}
+.btn,
+.navbar {
+  text-transform: uppercase;
+}
+.navbar {
+  background-color: #1a1a4eb1;
+  display: block;
+  height: 8rem;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  .logo {
+    width: 10rem;
+    height: auto;
+    position: absolute;
+    left: 10rem;
+    top: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+  .navlist {
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    li {
+      margin-right: 2rem;
+      padding: 1rem;
+    }
+  }
+}
+.hero-section {
+  width: 100vw;
+  position: absolute;
+  top: 10rem;
+  .content,
+  .image {
+    transition: transform 2s ease-out, opacity 3s ease-out;
+    opacity: 0;
+  }
+  .image {
+    transform: translateY(-60rem);
+    img {
+      width: 30rem;
+      margin-left: 10rem;
+    }
+  }
+  .content {
+    transform: translateX(-70rem);
+    h1 {
+      font-size: 8rem;
+    }
+    p {
+      font-size: 2.5rem;
+      font-weight: 400;
+      letter-spacing: 0.4rem;
+    }
+    .btn--outline {
+      margin-top: 2rem;
+      padding: 1.5rem 3rem;
+    }
+  }
+}
+.hero-section:hover {
+  .image {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+  .content {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+section {
+  padding: 10rem;
+  color: #212121;
+  a {
+    color: #212121;
+  }
+}
+.services {
+  background-color: #f7f7f7;
+  padding: 10rem;
+  // height: 110vh;
+  .service {
+    background-color: $color-white;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 1rem 2rem darkgray;
+    transition: transform 0.5s;
+    i {
+      font-size: 6rem;
+    }
+    h2 {
+      margin: 3rem 0px;
+    }
+    a {
+      margin-top: 3rem;
+    }
+    &:hover {
+      transform: translateY(-3rem);
+    }
+  }
+  .content {
+    text-align: center;
+    margin-top: 10%;
+    h1 {
+      margin: 2rem 0;
+    }
+    h3 {
+    }
+  }
+}
+.content {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  h1 {
+    margin: 2rem 0;
+  }
+  h2 {
+    font-weight: 500;
+  }
+}
+.process {
+  .content {
+    text-align: center;
+  }
+  .step__img {
+    border-radius: 1rem;
+    width: 90%;
+  }
+  .steps {
+    border: 1px solid #212121;
+    border-radius: 1rem;
+    padding: 4rem;
+    transition: all 0.5s;
+    h2 {
+      margin-bottom: 1rem;
+    }
+    &:hover {
+      transform: translateY(-1.5rem);
+      background-color: #212121;
+      color: $color-white;
+    }
+  }
+}
+.banner {
+  height: 60vh;
+  box-sizing: border-box;
+  color: $color-white;
+  text-align: center;
+  padding-top: 10%;
+  background-image: linear-gradient(#1a1a4eb1, #1a1a4eb1),
+    url(../img/business-bg-1.jpg);
+  background-size: cover;
+  i {
+    font-size: 3rem;
+  }
+}
+.packages {
+  .content {
+    text-align: center;
+  }
+  .row {
+    margin-top: 10rem;
+  }
+  &__plans {
+    // border: 1px solid;
+    border-radius: 1rem;
+    box-shadow: 0px 0.3em 1rem darkgray;
+    padding: 5rem;
+    width: 33% !important;
+    margin-right: 0.2rem !important;
+    transition: transform 0.5s;
+    background-color: $color-white;
+    h2 {
+      font-size: 3rem;
+    }
+    h1 {
+      display: inline-block;
+    }
+    hr {
+      margin: 4rem 0;
+      width: 30%;
+      background-color: $color-black;
+      height: 0.4rem;
+    }
+    li {
+      display: block;
+      margin: 1.5rem 0;
+    }
+    i {
+      color: lightgreen;
+      font-size: 2rem;
+      margin-right: 0.5rem;
+    }
+    .btn {
+      text-align: center;
+      margin-top: 3rem;
+      width: 100%;
+    }
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+.feedbacks {
+  background-color: #f7f7f7;
+  .info {
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .review {
+    padding: 4rem;
+    border-radius: 1rem;
+    background-color: $color-white;
+    box-shadow: 0px 0.3em 1rem darkgray;
+    transform: rotate(-7deg);
+    transition: transform 0.5s;
+    &:hover {
+      transform: rotate(0);
+    }
+    .row {
+      margin-top: 2rem;
+      position: relative;
+    }
+    strong {
+      font-size: 3rem;
+    }
+    img {
+      float: left;
+      width: 5rem;
+      border-radius: 10rem;
+      margin-right: 1.5rem;
+    }
+    h3 {
+      float: left;
+    }
+    span {
+      position: absolute;
+      top: 2.3rem;
+      left: 6.3rem;
+    }
+  }
+}
+.contact {
+  h1 {
+    margin-bottom: 2rem;
+  }
+  form {
+    width: 80%;
+  }
+  input {
+    height: 4rem;
+    padding: 2rem;
+    border-radius: 10rem;
+    outline: none;
+    border: 1px solid lightgray;
+    margin-bottom: 2rem;
+  }
+  #name {
+    margin-right: 1.5rem;
+  }
+  #name,
+  #email {
+    width: 48%;
+  }
+  #subject,
+  textarea {
+    width: 100%;
+  }
+  textarea {
+    resize: none;
+    height: 15rem;
+    border-radius: 1rem;
+    border: 1px solid lightgray;
+    padding: 2rem;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+  &__info {
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+}
+.footer {
+  // background-color: $color-black;
+  background-color: #0a0a1d;
+  height: 80vh;
+  color: $color-white;
+  padding: 10rem;
+  .footer-row-p1,
+  .footer-row-p2 {
+    float: left;
+  }
+  .footer-row-p1 {
+    width: 40%;
+    margin-right: 3rem;
+  }
+  .footer-row-p2 {
+    width: 57%;
+    h2 {
+      font-weight: 400 !important;
+    }
+    .about-us,
+    .quick-links {
+      width: 20%;
+    }
+    .our-location {
+      width: 35%;
+      i {
+        margin-right: 1rem;
+      }
+    }
+    li {
+      margin: 1rem 0;
+    }
+  }
+  .footer-logo {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+}

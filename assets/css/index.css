@@ -1,0 +1,179 @@
+/*----------------------------------------------------------------
+					   Start header
+----------------------------------------------------------------*/
+.header {
+    padding: 100px 0;
+    background: #f9f9f9;
+}
+
+.header h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #444;
+    margin-bottom: 0;;
+}
+
+.header p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #444;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.banner-btn {
+    margin-top: 40px;
+}
+
+a, a:hover, a:focus, a:active, button:focus {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    color: #FFF;
+}
+
+.btn-one {
+    cursor: pointer;
+    background: #f3c26b;
+    border: 2px solid #f3c26b;
+    -webkit-transition: all .4s;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    z-index: 2;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    line-height: 44px;
+    min-width: 170px;
+    height: 46px;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+.btn-one:hover{
+    background: #444 ;
+    border: 2px solid #444 ;
+    color: #f3c26b;
+}
+
+
+/*----------------------------------------------------------------
+					   End Header 
+----------------------------------------------------------------*/
+/*----------------------------------------------------------------
+					   Start Demos
+----------------------------------------------------------------*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.demos {
+    padding: 100px 0 50px 0;
+    background: #FFF;
+    text-align: center;
+}
+
+.demos h2 {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    
+}
+
+
+.footer-content {
+    padding: 25px 0;
+    background: #f9f9f9;
+}
+
+.product {
+    border: 1px solid #f3f2f2;
+    margin-bottom: 50px;
+    overflow: hidden;
+    padding: 7px;
+    background: #f9f9f9;
+    transition: all .5s;
+}
+.product:hover {
+    box-shadow: 5px 5px 40px -10px rgba(45, 44, 44, 0.57);
+}
+.title {
+    color: #444;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.title:hover {
+    color: #f3c26b;
+}
+
+/*----------------------------------------------------------------
+					   End Demos
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+					   Start Footer
+----------------------------------------------------------------*/
+.footer {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+footer .copyright {
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    letter-spacing: 1.7px;
+    line-height: 28px;
+    padding-top: 20px;
+}
+.copyright a {
+    color: #f3c26b;
+}
+.social-media {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.social-media li a {    
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 39px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    color: #444;
+    transition: all .1s;
+    
+}
+.social-media li a:hover {
+    color: #f3c26b;
+}
+
+/*----------------------------------------------------------------
+					   End Footer
+----------------------------------------------------------------*/

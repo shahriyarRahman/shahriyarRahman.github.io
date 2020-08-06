@@ -1,0 +1,32 @@
+html {
+  //not belong to typography because it defines  rem
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  h1 {
+    font-size: 6rem;
+  }
+  a,
+  li {
+    display: inline-block;
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+}

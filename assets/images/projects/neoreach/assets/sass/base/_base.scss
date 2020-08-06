@@ -1,0 +1,44 @@
+html {
+  //not belong to typography because it defines  rem
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+::selection {
+  background-color: $color-primary;
+  color: #fff;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Lato";
+  line-height: 1.5;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-transform: capitalize;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  .container {
+    max-width: 1440px;
+    margin: auto;
+    // overflow-x: hidden;
+  }
+}

@@ -1,0 +1,262 @@
+input[type="text"], input[type="email"], input[type="url"], input[type="tel"], input[type="search"], input[type="password"], input[type="subject"], textarea {
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+}
+
+.btn-one:hover{
+    background: #f9f9f9 ;
+    border: 2px solid #f9f9f9 ;
+    color: #f3c26b;
+}
+
+.section-title h3, .section-title-left h3 {
+    color: #f9f9f9;
+}
+
+/*------------- Navbar -----------*/
+.nav-fixed {
+    background: #343436;
+    border-bottom: 1px solid #29292d;
+}
+.nav-fixed .navbar-nav .nav-item .nav-link {
+    color: #f9f9f9;
+}
+.nav-fixed .social-media-nav li svg {
+    color: #f9f9f9;
+}
+
+
+/*------------- About Me -----------*/
+.about  {
+    background: #343436;
+}
+
+.about-img::before {
+    z-index: 2;
+}
+.about-img img {
+    z-index: 3;
+    position: relative;
+}
+.box-img::before,
+.box-img::after {
+    z-index: 1;
+    opacity: .2;
+}
+.profile {
+    background-color: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+.profile p {
+    color: #f9f9f9;
+}
+
+
+/*------------- MY Skills -----------*/
+
+.my-skills {
+    background: #2f2f31;
+}
+.skills .skill-box .progress-line {
+    background: #444;
+}
+.skills .skill-title,
+.skills .skill-box .progress-line > span > .percent-tooltip {
+    color: #f9f9f9;
+}
+/*------------- MY resume -----------*/
+.resume {
+    background: #343436;
+}
+.my-resume {
+    border-left: 2px solid #2b2b2d;
+}
+.history-top {
+    color: #f9f9f9;
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+.resume-item {
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;  
+}
+
+.resume-head .content-exper h4 {
+    color: #f9f9f9;
+}
+.history-top::before {
+    background: #2b2b2d;
+}
+.resume-head {
+    border-bottom: 2px solid #2b2b2d;
+}
+
+.icon-exp {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+
+
+
+/*------------- statistics -----------*/
+.statistics .overlay {
+    background-color: rgba(29, 29, 29, 0.7);
+}
+.stat-item .text {
+    background: rgba(86, 82, 82, 0.32);
+}
+
+/*------------- services -----------*/
+
+.services {
+    background: #2f2f31;
+}
+
+.services-item {
+
+    background: #343436;
+    border: 1px solid #2b2b2d;
+
+}
+
+.services-item h4 {
+    color: #f9f9f9;
+}
+
+.number-bg {
+    opacity: .1;
+}
+
+
+/*------------- portfolio -----------*/
+
+.portfolio {
+    position: relative;
+    background: #343436;
+}
+
+.list-control li {
+    color: #f9f9f9;
+}
+
+.my-work .overlay {
+    background: rgba(52, 52, 54, 0.98);
+}
+
+.info-img span {
+    color: #f9f9f9;
+}.my-work .info-img span:hover {
+    color: #fff;
+}
+
+.overlay .icon-img {
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+
+
+/*------------- testimonials -----------*/
+.testimonials {
+    background: #2f2f31;
+}
+
+.testimonials .testmonail-box {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+
+
+.testimonials .author-details h6 {
+    color: #f9f9f9;
+}
+
+.testimonials .owl-nav div {
+    background: #343436;
+}
+
+
+
+/*------------- blog -----------*/
+.blog {
+    background-color: #343436;
+}
+
+.blog-info {
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+.blog-info .title-post a h5,
+.blog-info .link {
+    color: #f9f9f9;
+}
+/*------------- clients -----------*/
+.clients {
+    background: #343436;
+}
+
+
+.content {
+
+    background: #343436;
+    border-top: 1px solid #2b2b2d;
+}
+
+.sponsor-item img {
+    opacity: .5;
+}
+
+/*------------- contact -----------*/
+
+.contact {
+    background: #2f2f31;
+}
+
+
+.contact .overlay {
+    opacity: .2;
+}
+
+.contact-item {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+    
+}
+
+.inner-contact h6 {
+    color: #f9f9f9;
+}
+
+.contact-item span {
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+}
+
+.form {
+    background: #343436;
+    border: 1px solid #2b2b2d;
+}
+
+/*------------- footer -----------*/
+footer {
+    background: #343436;
+    border-top: 1px solid #2b2b2d;
+}
+
+footer .copyright,
+footer .copyright a,
+.social-media li a {
+    color: #f9f9f9;
+    
+}
+
+.scroll-up:hover .top-three {
+    background: #f9f9f9
+}
+.scroll-up:hover .top-two {
+    color: #f9f9f9;
+}

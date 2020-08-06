@@ -1,0 +1,68 @@
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #b28451;
+
+$color-secondary: #101d2c;
+
+$color-gray-light-1: #f9f7f6;
+$color-gray-light-2: #aaa;
+
+$color-gray-dark-1: #54483a;
+$color-gray-dark-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: "Nunito", sans-serif;
+$font-display: "Josefin Sans", sans-serif;
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; //1200 px
+$bp-large: 62.5em; //1000 px
+$bp-medium: 50em; //800 px
+$bp-small: 37.5em; //600 px
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10/16px  = 62.5%  => 1rem = 10px
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%; // 1rem = 8px
+  }
+}
+body {
+  font-family: $font-primary;
+  $color: $color-gray-dark-2;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  //  min-content or auto do the same
+  grid-template-rows: 80vh min-content 40vw repeat((3, auto));
+  grid-template-columns:
+    [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(
+      8,
+      [col-start] minmax(min-content, 14rem) [col-end]
+    )
+    [center-end] minmax(6rem, 1fr) [full-end];
+
+  @media only screen and (max-width: $bp-large) {
+    grid-template-rows: 8rem 80vh min-content 40vw repeat((3, auto));
+    grid-template-columns:
+      [full-start] minmax(6rem, 1fr) [center-start] repeat(
+        8,
+        [col-start] minmax(min-content, 14rem) [col-end]
+      )
+      [center-end] minmax(6rem, 1fr) [full-end];
+  }
+  @media only screen and (max-width: $bp-medium) {
+    //we delted all remaining rows style because automatic placement will take care of it
+    grid-template-rows: 8rem calc(100vh - 8rem);
+  }
+}
